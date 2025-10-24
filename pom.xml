@@ -447,3 +447,16 @@
     </profile>
   </profiles>
 </project>
+<distributionManagement>
+  <repository>
+    <id>internal-repo</id>
+    <name>Company Internal Repository</name>
+    <url>http://your-repo-server/repository/maven-releases/</url>
+  </repository>
+  <snapshotRepository>
+    <id>internal-snapshots</id>
+    <name>Company Snapshot Repository</name>
+    <url>http://your-repo-server/repository/maven-snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
+
